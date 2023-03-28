@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input{
+    margin: 10px 0 10px 0;
+}
+input[type="text"],
+input[type="tel"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+div {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px #ccc;
+    text-align: center;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+canvas {
+    display: none;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+img#preview {
+    display: none;
+    margin: 20px auto;
+    max-width: 100%;
+}
